@@ -1,0 +1,276 @@
+.Call {
+    padding-top: 40px;
+    border-bottom: 3px solid #D4D4D4;
+    .call {
+      display: flex;
+      // align-items: center;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      .call-one {
+        display: flex;
+        flex-direction: column;
+        .call-img {
+          img {
+            width: 485px;
+            height: 485px;
+          }
+        }
+        .call-h1 {
+          font-family: Inter;
+          font-size: 35px;
+          font-weight: 600;
+          line-height: 45px;
+          max-width: 520px;
+          color: rgba(8, 84, 108, 1);
+          padding-top: 10px;
+        }
+        .call-p {
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 27px;
+          max-width: 485px;
+          width: 100%;
+          color: rgba(117, 117, 117, 1);
+          padding-top: 10px;
+        }
+        .call-btn {
+          display: flex;
+          align-items: center;
+          padding-top: 20px;
+          margin-left: -15px;
+          gap: 60px;
+          .btn-one {
+            display: flex;
+            align-items: center;
+              gap: 30px;
+            button {
+              border: none;
+              font-family: Inter;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 25px;
+              color: rgba(117, 117, 117, 1);
+              background: none;
+              padding-right: 20px;
+              transition: 0.4s;
+              padding: 15px;
+              border-radius: 30px;
+              cursor: pointer;
+              &:hover {
+                color: rgba(255, 168, 0, 1);
+                  cursor: pointer;
+                background-color: rgba(255, 248, 235, 1);
+              }
+            }
+          }
+          .btn-two {
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            color: rgba(117, 117, 117, 1);
+           margin-left: 40px;
+          }
+        }
+      }
+      .call-two {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .two-h1 {
+          font-family: Inter;
+          font-size: 45px;
+          font-weight: 600;
+          line-height: 60px;
+          width: 222px;
+          color: rgba(8, 84, 108, 1);
+        }
+        .two-p {
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28.8px;
+          max-width: 337px;
+          width: 100%;
+          color: rgba(117, 117, 117, 1);
+        }
+        .two-btn {
+          button {
+            width: 191px;
+            border-radius: 30px;
+            color: rgba(255, 255, 255, 1);
+            background: rgba(255, 166, 58, 1);
+            padding: 20px;
+            border: none;
+          }
+        }
+        .two-img {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          padding-top: 100px;
+          button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: none;
+            border: 1px solid rgba(255, 168, 0, 1);
+            color: rgba(255, 168, 0, 1);
+            font-size: 15px;
+            transition: 0.4s;
+            &:hover {
+              background-color: rgba(255, 168, 0, 1);
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+  @media(max-width:1200px){
+    .Call{
+        padding: 40px 20px;
+    }
+  }
+
+  @media(max-width:541px){
+    .Call {
+        padding-top: 40px;
+        border-bottom: 3px solid #D4D4D4;
+        .call {
+          display: flex;
+          // align-items: center;
+          justify-content: center;
+          gap: 50px;
+          flex-wrap: wrap;
+          .call-one {
+            display: flex;
+            flex-direction: column;
+            .call-img {
+              img {
+                max-width: 485px;
+                width: 100%;
+                height: 400px;
+              }
+            }
+            .call-h1 {
+              font-family: Inter;
+              font-size: 32px;
+              font-weight: 600;
+              line-height: 35px;
+              max-width: 520px;
+              color: rgba(8, 84, 108, 1);
+              padding-top: 10px;
+            }
+            .call-p {
+              font-family: Inter;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 27px;
+              max-width: 485px;
+              width: 100%;
+              color: rgba(117, 117, 117, 1);
+              padding-top: 10px;
+            }
+            .call-btn {
+              display: flex;
+              align-items: center;
+              padding-top: 20px;
+              margin-left: -15px;
+              gap: 60px;
+              .btn-one {
+                display: flex;
+                align-items: center;
+                  gap: 1px;
+                button {
+                  border: none;
+                  font-family: Inter;
+                  font-size: 12px;
+                  font-weight: 400;
+                  line-height: 25px;
+                  color: rgba(117, 117, 117, 1);
+                  background: none;
+                  padding-right: 20px;
+                  transition: 0.4s;
+                  padding: 15px;
+                  border-radius: 30px;
+                  cursor: pointer;
+                  &:hover {
+                    color: rgba(255, 168, 0, 1);
+                      cursor: pointer;
+                    background-color: rgba(255, 248, 235, 1);
+                  }
+                }
+              }
+              .btn-two {
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                color: rgba(117, 117, 117, 1);
+                 margin-left: -40px;
+                 display: none;
+              }
+            }
+          }
+          .call-two {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .two-h1 {
+              font-family: Inter;
+              font-size: 32px;
+              font-weight: 600;
+              line-height: 22px;
+              max-width: 400px;
+              width: 100%;
+              color: rgba(8, 84, 108, 1);
+            }
+            .two-p {
+              font-family: Inter;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 28.8px;
+              max-width: 337px;
+              width: 100%;
+              color: rgba(117, 117, 117, 1);
+            }
+            .two-btn {
+              button {
+                width: 191px;
+                border-radius: 30px;
+                color: rgba(255, 255, 255, 1);
+                background: rgba(255, 166, 58, 1);
+                padding: 20px;
+                border: none;
+              }
+            }
+            .two-img {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              padding-top: 10px;
+              button {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: none;
+                border: 1px solid rgba(255, 168, 0, 1);
+                color: rgba(255, 168, 0, 1);
+                font-size: 15px;
+                transition: 0.4s;
+                &:hover {
+                  background-color: rgba(255, 168, 0, 1);
+                  color: rgba(255, 255, 255, 1);
+                }
+              }
+            }
+          }
+        }
+      }
+  }
