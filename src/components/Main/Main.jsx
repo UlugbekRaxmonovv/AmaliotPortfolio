@@ -4,7 +4,9 @@ import main from '../../assets/img/main1.png'
 import man from '../../assets/img/man.png'
 const Main = () => {
     return (
-        <div className='main'>
+    <>
+    <section id='about'>
+    <div className='main'>
          <div className="container">
          <div className="mains">
             <div className="main_">
@@ -79,6 +81,8 @@ needs highly recommened’’</p>
                </div>
          </div>
         </div>
+    </section>
+    </>
     );
 }
 

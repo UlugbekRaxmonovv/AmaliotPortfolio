@@ -14,10 +14,10 @@ const Navbar = () => {
             <ul className={`ul_list ${show ? "menu_list" : <></>}`}>
         
                 <li>
-                    <NavLink exact to="/" activeClassName="active">Home</NavLink>          
+                 <a href="">Home</a>    
                 </li>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">About</NavLink>          
+                    <a href="#about">About</a>
                 </li>
                 <li>
                         <a href="#services">Service</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">Blog</NavLink>          
+                    <a href="#blog">Blog</a>
                 </li>
                 <li>
                 <div className="btn">
@@ -36,7 +36,9 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="btn1">
-                <button>Contact</button>
+               <a href="#footer">
+               <button>Contact</button>
+               </a>
             </div>
             <BiMenuAltRight onClick={() =>setShow(!show)}  className='menu' />
 

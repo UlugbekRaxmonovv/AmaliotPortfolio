@@ -38,7 +38,9 @@ header{
                 text-align: left;
                     color: #A1B5BB;
 
-
+   &:hover{
+    border-bottom: 3px solid #A1B5BB;
+   }
             }
             .btn{
                 button{

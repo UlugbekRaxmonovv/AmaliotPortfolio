@@ -3,7 +3,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import './Call.scss'
 const Call = () => {
   return (
-    <div className="Call">
+<>
+
+<section id="blog">
+<div className="Call">
       <div className="container">
         <div className="call">
           <div className="call-one">
@@ -57,6 +60,8 @@ const Call = () => {
         </div>
       </div>
     </div>
+</section>
+</>
   );
 };
 export default Call;
