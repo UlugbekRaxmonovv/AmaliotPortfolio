@@ -20,10 +20,11 @@ const Navbar = () => {
                     <NavLink exact to="/" activeClassName="active">About</NavLink>          
                 </li>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">Service</NavLink>          
+                        <a href="#services">Service</a>
+    
                 </li>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">Portfolio</NavLink>          
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
                     <NavLink exact to="/" activeClassName="active">Blog</NavLink>          
